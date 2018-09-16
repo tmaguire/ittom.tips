@@ -4,15 +4,3 @@
 [build.environment]
   YARN_VERSION = "1.3.2"
   YARN_FLAGS = "--no-ignore-optional"
-  
-[[headers]]
-  for = "/*" # This defines which paths this specific [[headers]] block will cover.
-  [headers.values]
-    X-Frame-Options = "SAMEORIGIN"
-    X-XSS-Protection = "1; mode=block"
-	X-Content-Type-Options = "nosniff"
-	Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
-	Referrer-Policy = "same-origin"
-	Expect-CT = "enforce, max-age=30, report-uri="https://maguire.report-uri.com/r/d/ct/enforce""
-	Feature-Policy = "accelerometer 'none'; camera 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment 'none'; usb 'none'"
-	

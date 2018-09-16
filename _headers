@@ -1,0 +1,9 @@
+# All paths
+/*
+    X-Frame-Options: SAMEORIGIN
+    X-Content-Type-Options: nosniff
+    X-XSS-Protection: 1; mode=block
+	Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+	Referrer-Policy: same-origin
+	Expect-CT: enforce, max-age=30, report-uri="https://maguire.report-uri.com/r/d/ct/enforce"
+	Feature-Policy: accelerometer 'none'; camera 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment 'none'; usb 'none'
