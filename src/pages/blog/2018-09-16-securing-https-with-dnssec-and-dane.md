@@ -4,7 +4,7 @@ title: Securing HTTPS with DNSSEC and DANE
 date: 2018-09-16T18:21:40.262Z
 description: Got DNSSEC on a domain? Why not secure your HTTPS web servers with DANE!
 tags:
-  - dnssec tlsa dane https dns
+  - dnssec; tlsa; dane; https; dns
 ---
 ****
 
